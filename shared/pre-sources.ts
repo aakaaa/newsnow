@@ -483,6 +483,51 @@ export const originSources = {
       },
     },
   },
+  "chinanews": {
+  name: "中华网要闻",
+  type: "hottest",
+  column: "world",
+  color: "red",
+  interval: Time.Default,
+  home: "https://news.china.com/",
+  title: "要闻",
+},
+"chinanews-hot": {
+  name: "中华热点",
+  type: "hottest",
+  column: "world",
+  color: "orange",
+  interval: Time.Default,
+  home: "https://news.china.com/",
+  title: "热点",
+},
+"chinanews-domestic": {
+  name: "中华国内",
+  type: "hottest",
+  column: "china",
+  color: "green",
+  interval: Time.Default,
+  home: "https://news.china.com/domestic/",
+  title: "国内",
+},
+"chinanews-international": {
+  name: "中华国际",
+  type: "hottest",
+  column: "world",
+  color: "blue",
+  interval: Time.Default,
+  home: "https://news.china.com/international/",
+  title: "国际",
+},
+"chinanews-latest": {
+  name: "中华实时",
+  type: "realtime",  // 这里用 realtime
+  column: "world",
+  color: "purple",
+  interval: Time.Fast,
+  home: "https://news.china.com/",
+  title: "实时",
+},
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
