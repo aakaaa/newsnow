@@ -563,5 +563,45 @@
     "color": "green",
     "interval": 1800000,
     "title": "热播榜"
+  },
+  "chinanews": {
+    "name": "中华网要闻",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://news.china.com/",
+    "color": "red",
+    "interval": 600000
+  },
+  "chinanews-hot": {
+    "name": "中华热点",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://news.china.com/",
+    "color": "orange",
+    "interval": 600000
+  },
+  "chinanews-domestic": {
+    "name": "中华国内",
+    "type": "hottest",
+    "column": "china",
+    "home": "https://news.china.com/domestic/",
+    "color": "green",
+    "interval": 600000
+  },
+  "chinanews-international": {
+    "name": "中华国际",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://news.china.com/international/",
+    "color": "blue",
+    "interval": 600000
+  },
+  "chinanews-latest": {
+    "name": "中华实时",
+    "type": "hottest",
+    "column": "world",
+    "home": "https://news.china.com/",
+    "color": "purple",
+    "interval": 300000
   }
 }
